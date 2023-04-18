@@ -21,8 +21,10 @@ function printDigitValue($string){
   echo $number."<br>";
   for($i=strlen($number);$i>=1;$i--){
     for($a=0;$a<$i;$a++){
-      if($number[-$i]){
+      if($a==0){
         echo $number[-$i];
+      }else{
+        echo 0;
       };
     }
   echo "<br>";
