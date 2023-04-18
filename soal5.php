@@ -11,20 +11,7 @@
 function ubah($int){
   $intsplit = str_split($int);
   switch ($int) {
-    case ($int==1):
-      echo "hi";
-      break;
-    case ($int<11):
-      echo "hi";
-      break;
-    case ($int>=10):
-      echo "h";
-      break;
-    case ($int<=100):
-      echo "h";
-      break;
-    default:
-      echo "silahkan masukkan bilangan 1-100";
+
   }
 }
 
