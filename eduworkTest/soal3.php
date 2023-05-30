@@ -11,7 +11,8 @@
 // 20
 // 1
 
-function printDigitValue($string){
+function printDigitValue($string)
+{
   $number = '';
   for($i=0;$i<strlen($string);$i++){
     if(is_numeric($string[$i])){
@@ -32,4 +33,14 @@ function printDigitValue($string){
 }
 
 echo printDigitValue('9.86-A5.321')
+
+// Result =
+// 9865321
+// 9000000
+// 800000
+// 60000
+// 5000
+// 300
+// 20
+// 1
 ?>

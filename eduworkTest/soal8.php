@@ -19,8 +19,8 @@
 
 // keterangan : string edu untuk kelipatan 3, string work untuk kelipatan 5, string eduwork untuk kelipatan 3 dan 5
 
-
-function eduwork($int){
+function eduwork($int)
+{
   for($i=1;$i<=$int;$i++){
     $sisaBagi3 = $i % 3;
     $sisaBagi5 = $i % 5;

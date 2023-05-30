@@ -3,13 +3,16 @@
 // Apabila input = “abcde”, maka outputnya = “edcba”
 // Dilarang menggunakan function reverse, buatlah logika sendiri
 
-function string($string){
-  $reverse = "";
+function reverseString($string)
+{
+  $reversedString = "";
   for($i=strlen($string)-1;$i>=0;$i--){
-    $reverse .= $string[$i];
+    $reversedString  .= $string[$i];
   }
-  echo $reverse;
+  return $reversedString ;
 }
 
-echo string("abcdsaveasvewgv");
+echo reverseString("abcde");
+
+// result = "edcba"
 ?>
